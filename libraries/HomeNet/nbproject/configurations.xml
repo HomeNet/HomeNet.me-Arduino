@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="69">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HomeNet" displayName="HomeNet" projectFiles="true">
+      <logicalFolder name="examples"
+                     displayName="examples"
+                     projectFiles="true"
+                     kind="SOURCE_LOGICAL_FOLDER">
+        <itemPath>examples/Node_Arduino.pde</itemPath>
+        <itemPath>examples/Node_ArduinoRgbLed.pde</itemPath>
+        <itemPath>examples/Node_Base.pde</itemPath>
+        <itemPath>examples/Node_LCD.pde</itemPath>
+        <itemPath>examples/Node_LDR_TMP37.pde</itemPath>
+        <itemPath>examples/Node_Led.pde</itemPath>
+        <itemPath>examples/Node_Switch.pde</itemPath>
+        <itemPath>examples/Node_Test_Schedule.pde</itemPath>
+      </logicalFolder>
+      <itemPath>HomeNet.cpp</itemPath>
+      <itemPath>HomeNet.h</itemPath>
+      <itemPath>HomeNetConfig.h</itemPath>
+      <itemPath>HomeNetDeviceLCD.cpp</itemPath>
+      <itemPath>HomeNetDeviceLCD.h</itemPath>
+      <itemPath>HomeNetDevices.cpp</itemPath>
+      <itemPath>HomeNetDevices.h</itemPath>
+      <itemPath>HomeNetDevicesButton.cpp</itemPath>
+      <itemPath>HomeNetDevicesButton.h</itemPath>
+      <itemPath>Makefile</itemPath>
+      <itemPath>PortsSHT21.cpp</itemPath>
+      <itemPath>PortsSHT21.h</itemPath>
+      <itemPath>keywords.txt</itemPath>
+    </logicalFolder>
+    <logicalFolder name="LibHumidity" displayName="LibHumidity" projectFiles="true">
+      <logicalFolder name="new"
+                     displayName="new"
+                     projectFiles="true"
+                     kind="SOURCE_LOGICAL_FOLDER">
+        <itemPath>../LibHumidity/new/PortsSHT21.cpp</itemPath>
+        <itemPath>../LibHumidity/new/PortsSHT21.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="old"
+                     displayName="old"
+                     projectFiles="true"
+                     kind="SOURCE_LOGICAL_FOLDER">
+        <itemPath>../LibHumidity/old/LibHumidity.cpp</itemPath>
+        <itemPath>../LibHumidity/old/LibHumidity.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="old2"
+                     displayName="old2"
+                     projectFiles="true"
+                     kind="SOURCE_LOGICAL_FOLDER">
+        <itemPath>../LibHumidity/old2/LibHumidity.cpp</itemPath>
+        <itemPath>../LibHumidity/old2/LibHumidity.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="org"
+                     displayName="org"
+                     projectFiles="true"
+                     kind="SOURCE_LOGICAL_FOLDER">
+        <itemPath>../LibHumidity/org/LibHumidity.cpp</itemPath>
+        <itemPath>../LibHumidity/org/LibHumidity.h</itemPath>
+      </logicalFolder>
+      <itemPath>../LibHumidity/LibHumidity.cpp</itemPath>
+      <itemPath>../LibHumidity/LibHumidity.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="Ports" displayName="Ports" projectFiles="true">
+      <logicalFolder name="examples"
+                     displayName="examples"
+                     projectFiles="true"
+                     kind="SOURCE_LOGICAL_FOLDER">
+        <logicalFolder name="accel2125_demo"
+                       displayName="accel2125_demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/accel2125_demo/accel2125_demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="analog_demo"
+                       displayName="analog_demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/analog_demo/analog_demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="blink_demo"
+                       displayName="blink_demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/blink_demo/blink_demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="blink_ports"
+                       displayName="blink_ports"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/blink_ports/blink_ports.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="blink_recv"
+                       displayName="blink_recv"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/blink_recv/blink_recv.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="blink_xmit"
+                       displayName="blink_xmit"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/blink_xmit/blink_xmit.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="bmp085demo"
+                       displayName="bmp085demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/bmp085demo/bmp085demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="bmp085recv"
+                       displayName="bmp085recv"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/bmp085recv/bmp085recv.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="button_demo"
+                       displayName="button_demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/button_demo/button_demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="combi_demo"
+                       displayName="combi_demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/combi_demo/combi_demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="dcf77demo"
+                       displayName="dcf77demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/dcf77demo/dcf77demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="dimmer_demo"
+                       displayName="dimmer_demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/dimmer_demo/dimmer_demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="eemem"
+                       displayName="eemem"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/eemem/eemem.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="expander"
+                       displayName="expander"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/expander/expander.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="glcd_demo"
+                       displayName="glcd_demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/glcd_demo/glcd_demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="gravity_demo"
+                       displayName="gravity_demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/gravity_demo/gravity_demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="h48c_demo"
+                       displayName="h48c_demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/h48c_demo/h48c_demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="heading_demo"
+                       displayName="heading_demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/heading_demo/heading_demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="hm55b_demo"
+                       displayName="hm55b_demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/hm55b_demo/hm55b_demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="input_demo"
+                       displayName="input_demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/input_demo/input_demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="ir_recv"
+                       displayName="ir_recv"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/ir_recv/ir_recv.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="ir_recv_irq"
+                       displayName="ir_recv_irq"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/ir_recv_irq/ir_recv_irq.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="ir_repeater"
+                       displayName="ir_repeater"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/ir_repeater/ir_repeater.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="isp_capture"
+                       displayName="isp_capture"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/isp_capture/isp_capture.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="isp_flash"
+                       displayName="isp_flash"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/isp_flash/isp_flash.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="isp_prepare"
+                       displayName="isp_prepare"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/isp_prepare/ATmegaBOOT_168_atmega328.hex</itemPath>
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/isp_prepare/Blink.cpp.hex</itemPath>
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/isp_prepare/RF12demo.cpp.hex</itemPath>
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/isp_prepare/data_blink.h</itemPath>
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/isp_prepare/data_rf12demo.h</itemPath>
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/isp_prepare/hex2c.tcl</itemPath>
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/isp_prepare/isp_prepare.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="isp_repair"
+                       displayName="isp_repair"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/isp_repair/isp_repair.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="lcd_demo"
+                       displayName="lcd_demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/lcd_demo/lcd_demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="lux_demo"
+                       displayName="lux_demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/lux_demo/lux_demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="memory_demo"
+                       displayName="memory_demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/memory_demo/memory_demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="nunchuk_demo"
+                       displayName="nunchuk_demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/nunchuk_demo/nunchuk_demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="opto_demo"
+                       displayName="opto_demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/opto_demo/opto_demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="output_stepper"
+                       displayName="output_stepper"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/output_stepper/output_stepper.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="parser_demo"
+                       displayName="parser_demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/parser_demo/parser_demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="pir_demo"
+                       displayName="pir_demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/pir_demo/pir_demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="powerdown_demo"
+                       displayName="powerdown_demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/powerdown_demo/powerdown_demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="proximity_demo"
+                       displayName="proximity_demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/proximity_demo/proximity_demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="qti_demo"
+                       displayName="qti_demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/qti_demo/qti_demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="recv433demo"
+                       displayName="recv433demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/recv433demo/recv433demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="relay_demo"
+                       displayName="relay_demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/relay_demo/relay_demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="rtc_demo"
+                       displayName="rtc_demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/rtc_demo/rtc_demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="schedule"
+                       displayName="schedule"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/schedule/schedule.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="sht11demo"
+                       displayName="sht11demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/sht11demo/sht11demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="SMDdemo"
+                       displayName="SMDdemo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/SMDdemo/SMDdemo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="snapNikon"
+                       displayName="snapNikon"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/snapNikon/snapNikon.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="thermo_demo"
+                       displayName="thermo_demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/thermo_demo/thermo_demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="tsl230demo"
+                       displayName="tsl230demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/tsl230demo/tsl230demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="uart_demo"
+                       displayName="uart_demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/Ports/examples/uart_demo/uart_demo.pde</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <itemPath>C:/mp/arduino-0021/libraries/Ports/CHANGES.txt</itemPath>
+      <itemPath>C:/mp/arduino-0021/libraries/Ports/Ports.cpp</itemPath>
+      <itemPath>C:/mp/arduino-0021/libraries/Ports/Ports.h</itemPath>
+      <itemPath>C:/mp/arduino-0021/libraries/Ports/PortsBMP085.cpp</itemPath>
+      <itemPath>C:/mp/arduino-0021/libraries/Ports/PortsBMP085.h</itemPath>
+      <itemPath>C:/mp/arduino-0021/libraries/Ports/PortsLCD.cpp</itemPath>
+      <itemPath>C:/mp/arduino-0021/libraries/Ports/PortsLCD.h</itemPath>
+      <itemPath>C:/mp/arduino-0021/libraries/Ports/PortsRF12.cpp</itemPath>
+      <itemPath>C:/mp/arduino-0021/libraries/Ports/PortsSHT11.cpp</itemPath>
+      <itemPath>C:/mp/arduino-0021/libraries/Ports/PortsSHT11.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="RF12" displayName="RF12" projectFiles="true">
+      <logicalFolder name="examples"
+                     displayName="examples"
+                     projectFiles="true"
+                     kind="SOURCE_LOGICAL_FOLDER">
+        <logicalFolder name="crypRecv"
+                       displayName="crypRecv"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/RF12/examples/crypRecv/crypRecv.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="crypSend"
+                       displayName="crypSend"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/RF12/examples/crypSend/crypSend.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="fs20demo"
+                       displayName="fs20demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/RF12/examples/fs20demo/fs20demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="kaku_demo"
+                       displayName="kaku_demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/RF12/examples/kaku_demo/kaku_demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="packetBuf"
+                       displayName="packetBuf"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/RF12/examples/packetBuf/packetBuf.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="pingPong"
+                       displayName="pingPong"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/RF12/examples/pingPong/pingPong.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="radioBlip"
+                       displayName="radioBlip"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/RF12/examples/radioBlip/radioBlip.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="RF12demo"
+                       displayName="RF12demo"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/RF12/examples/RF12demo/README</itemPath>
+          <itemPath>C:/mp/arduino-0021/libraries/RF12/examples/RF12demo/RF12demo.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="rf12serial"
+                       displayName="rf12serial"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/RF12/examples/rf12serial/rf12serial.pde</itemPath>
+        </logicalFolder>
+        <logicalFolder name="rf12stream"
+                       displayName="rf12stream"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>C:/mp/arduino-0021/libraries/RF12/examples/rf12stream/rf12stream.pde</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <itemPath>C:/mp/arduino-0021/libraries/RF12/CHANGES.txt</itemPath>
+      <itemPath>C:/mp/arduino-0021/libraries/RF12/RF12.cpp</itemPath>
+      <itemPath>C:/mp/arduino-0021/libraries/RF12/RF12.h</itemPath>
+      <itemPath>C:/mp/arduino-0021/libraries/RF12/RF12sio.cpp</itemPath>
+      <itemPath>C:/mp/arduino-0021/libraries/RF12/RF12sio.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>.</Elem>
+    <Elem>C:/mp/arduino-0021/libraries/Ports</Elem>
+    <Elem>C:/mp/arduino-0021/libraries/RF12</Elem>
+    <Elem>../LibHumidity</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>WinAVR|WinAVR</compilerSet>
+        <platform>3</platform>
+      </toolsSet>
+      <compileType>
+      </compileType>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>WinAVR|WinAVR</compilerSet>
+        <platform>3</platform>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>
