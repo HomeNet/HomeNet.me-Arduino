@@ -17,19 +17,20 @@ RANLIB=ranlib
 CC=avr-gcc.exe
 CCC=avr-g++.exe
 CXX=avr-g++.exe
-FC=
+FC=gfortran
 AS=avr-as.exe
 
 # Macros
 CND_PLATFORM=WinAVR-Windows
 CND_CONF=Release
 CND_DISTDIR=dist
+CND_BUILDDIR=build
 
 # Include project Makefile
 include Makefile
 
 # Object Directory
-OBJECTDIR=build/${CND_CONF}/${CND_PLATFORM}
+OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
@@ -70,10 +71,10 @@ LDLIBSOPTIONS=
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
-	"${MAKE}"  -f nbproject/Makefile-Release.mk dist/Release/WinAVR-Windows/homenet.exe
+	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/homenet.exe
 
-dist/Release/WinAVR-Windows/homenet.exe: ${OBJECTFILES}
-	${MKDIR} -p dist/Release/WinAVR-Windows
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/homenet.exe: ${OBJECTFILES}
+	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/homenet ${OBJECTFILES} ${LDLIBSOPTIONS} 
 
 ${OBJECTDIR}/_ext/1730660635/PortsBMP085.o: C/mp/arduino-0021/libraries/Ports/PortsBMP085.cpp 
@@ -166,8 +167,8 @@ ${OBJECTDIR}/_ext/666785897/LibHumidity.o: ../LibHumidity/LibHumidity.cpp
 
 # Clean Targets
 .clean-conf: ${CLEAN_SUBPROJECTS}
-	${RM} -r build/Release
-	${RM} dist/Release/WinAVR-Windows/homenet.exe
+	${RM} -r ${CND_BUILDDIR}/${CND_CONF}
+	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/homenet.exe
 
 # Subprojects
 .clean-subprojects:
